@@ -2,20 +2,22 @@
 This project converts an ascii string into an output over the spectrum.  
 # Characters that are able to be used  
 The following characters are readable by the program:  
-|Character|
-|" - "|  
-|" | "|  
-|" \\ "|  
-|" / "|  
-|" . " |  
-|" _ "|  
-|" \' "|  
-|" < "|  
-|" > "|  
-|" * "|  
-|" ^ "|  
-|" ( "|  
-|" ) "|  
+| Character |   
+| ---- | 
+| " - " |   
+| " | " |   
+| " \\ " |   
+| " / " |   
+| " . "  |  
+| " _ " |  
+| " \' " |  
+| " < " |  
+| " > " |  
+| " * " |  
+| " ^ " |  
+| " ( " |  
+| " ) " |  
+
 If you enter a charater that is not represented above, the program will still continue and it will simply have a blank where you might expect that character. The only character that is **reserved** is the character `n`. Use this letter to signify the end of a line(see example for usage).
 # Example 
 Starting Ascii Conecpt
@@ -43,9 +45,11 @@ After doing these steps, you will get this good looking string. Put it into the 
 '         /\\ _ /\ n        |(*) (*)| n         \\  ^  / n         /.....\\  n        |.......| n         \\...../ n          /\\ /\\ n  _  __   _____   _    _ n | |/ /  / ____| | |  | | n | \' /  | (___   | |  | | n |  <    \___ \  | |  | | n | . \\   ____) | | |__| | n |_|\_\\ |_____/   \\____/  n'
 ```  
 Use these parameters:  
-|Variable|Value|  
-|Base Frequency|1000|  
-|Sample Rate|20e6|
-|T|1|  
+| Variable | Value | 
+| ------- | -----| 
+| Base Frequency | 1000 |   
+| Sample Rate | 20e6 | 
+| T | 1 | 
+
 And your output will look like this:  
-![](misc/go_owls.png)
+![](../../misc/go_owls.png)
