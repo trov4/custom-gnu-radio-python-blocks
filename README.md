@@ -1,4 +1,4 @@
-# gnu_radio_cutsom_python_files
+# gnu radio custom python files
 This respository is a collection of python files used in GNURadio for various projects.
 
 # Using these files  
