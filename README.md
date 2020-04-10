@@ -1,5 +1,5 @@
 # gnu_radio_cutsom_python_files
-This respository is a collection of python files used in GNURadio for various reasons
+This respository is a collection of python files used in GNURadio for various projects.
 
 # Using these files  
 In the lib folder there are various projects. each of which have a .grc file and a python file. The .grc file contains the project that was made for the custom Python block. The Python file is the actual Python block. To use the Python block follow these steps:  
