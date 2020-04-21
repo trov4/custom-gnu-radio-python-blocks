@@ -40,13 +40,13 @@ class blk(gr.sync_block):  # other base classes are basic_block, decim_block, in
         """arguments to this function show up as parameters in GRC"""
         gr.sync_block.__init__(
             self,
-            name='ASCII Shooter1',   # will show up in GRC
+            name='Trevor`s sig souce',   # will show up in GRC
             in_sig=[np.complex64], # no input
             out_sig=[np.complex64]       # have a dummy output
         )
         self.freq = frequency
         self.samp_rate = long(sample_frequency)
-        self.message_port_register_out(pmt.intern('freq'))  # port to send on
+        self.message_port_register_out(pmt.intern('debug'))  # port to send on
 
     def work(self, input_items, output_items):
         """example: multiply with constant"""
