@@ -10,6 +10,6 @@ A [pmt message](https://wiki.gnuradio.org/index.php/Message_Passing) is just a m
 The inputs for this block are `base frequency`, the frequency where jumping will begin, `number of frequencies`, how many jumps will occur, and `bandwidth`, the distance between jumps.  
 Finally, every block in gnu radio must have an input or an output for the work function to be triggered. So for this block, you can send the output straight to a Null source, while the message output goes to the sig source.  
 
-### direct out out hopper  
+### direct out hopper  
 This builds upon the custom python signal source found in this repo. The output of this block can go directly into a throttle block into an output. The pmt message output has been kept for debug purpose, but it does not need to be hooked up to anything for the block to run.  
 The inputs are the same as the pmt output block, however it also expects `sample frequency` which should match the throttle block.
